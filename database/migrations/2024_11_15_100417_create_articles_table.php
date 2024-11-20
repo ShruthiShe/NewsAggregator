@@ -19,6 +19,7 @@ return new class extends Migration
             $table->text('content'); 
             $table->string('category');
             $table->string('source'); 
+            $table->string('url')->index()->nullable();
             $table->string('author')->nullable(); 
             $table->date('published_date'); 
             $table->timestamps();
