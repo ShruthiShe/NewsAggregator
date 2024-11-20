@@ -5,10 +5,9 @@
 ##git
 git init
 git add README.md
-git commit -m "first commit"
-git branch -M new_branch
+git commit -m "main"
 git remote add origin https://github.com/ShruthiShe/News_Aggregator.git
-git push -u origin new_branch
+git push -u origin main
 
 
 ### Prerequisites:
